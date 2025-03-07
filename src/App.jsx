@@ -2,6 +2,7 @@ import React from 'react'
 import Accordion from './components/accordian/Accordion'
 import './App.css'
 import ColorGenerator from './components/ColorGenerator/ColorGenerator'
+import StarRating from './components/StarRating/StarRating'
 
 const App = () => {
   return (
@@ -10,8 +11,10 @@ const App = () => {
     {/* <Accordion/> */}
 
     {/* random color generator */}
+    {/* <ColorGenerator/> */}
 
-    <ColorGenerator/>
+    {/* star rating */}
+    <StarRating/>
     </>
   )
 }
