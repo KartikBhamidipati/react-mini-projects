@@ -8,13 +8,13 @@ const App = () => {
   return (
     <>
     {/*Accordian*/}
-    <Accordion/> 
+    {/* <Accordion/>  */}
 
     {/* random color generator */}
-    <ColorGenerator/>
+    {/* <ColorGenerator/> */}
 
     {/* star rating */}
-    <StarRating/>
+    <StarRating starCount={10}/>
     </>
   )
 }
