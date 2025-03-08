@@ -3,6 +3,7 @@ import Accordion from './components/accordian/Accordion'
 import './App.css'
 import ColorGenerator from './components/ColorGenerator/ColorGenerator'
 import StarRating from './components/StarRating/StarRating'
+import ImageSlider from './components/imageslider/ImageSlider'
 
 const App = () => {
   return (
@@ -14,7 +15,10 @@ const App = () => {
     {/* <ColorGenerator/> */}
 
     {/* star rating */}
-    <StarRating starCount={10}/>
+    {/* <StarRating starCount={10}/> */}
+
+    {/* image slider */}
+    <ImageSlider/>    
     </>
   )
 }
