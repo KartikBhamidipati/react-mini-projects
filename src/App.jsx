@@ -4,6 +4,7 @@ import './App.css'
 import ColorGenerator from './components/ColorGenerator/ColorGenerator'
 import StarRating from './components/StarRating/StarRating'
 import ImageSlider from './components/imageslider/ImageSlider'
+import Scroll from './components/scroll indicator/Scroll'
 
 const App = () => {
   return (
@@ -18,7 +19,10 @@ const App = () => {
     {/* <StarRating starCount={10}/> */}
 
     {/* image slider */}
-    <ImageSlider/>    
+    {/* <ImageSlider/>     */}
+
+    {/* scroll indicator */}
+    <Scroll/>
     </>
   )
 }
